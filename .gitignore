@@ -1,0 +1,22 @@
+# VuePress 构建输出
+src/.vuepress/dist/
+
+# VuePress 临时文件
+src/.vuepress/.temp/
+src/.vuepress/.cache/
+
+# VuePress 配置文件
+.env
+.env.local
+.env.*.local
+
+# Node.js 项目相关
+node_modules/
+package-lock.json
+yarn.lock
+.pnpmfile.cjs
+
+# 日志文件
+logs
+*.log
+logs/*.log
