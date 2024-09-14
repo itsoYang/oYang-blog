@@ -2,47 +2,44 @@ import { navbar } from "vuepress-theme-hope";
 
 export default navbar([
   "/",
-  "/demo/",
   {
-    text: "博文",
-    icon: "pen-to-square",
-    prefix: "/posts/",
-    children: [
+    text: "前端",
+    prefix: "/frontend/",
+    children:[
       {
-        text: "苹果",
-        icon: "pen-to-square",
-        prefix: "apple/",
+        text: "vue",
+        prefix: "vue/",
         children: [
-          { text: "苹果1", icon: "pen-to-square", link: "1" },
-          { text: "苹果2", icon: "pen-to-square", link: "2" },
-          "3",
-          "4",
-        ],
-      },
+          {text: "vue-hello", link: "vue-hello"}
+        ]
+      }
+    ]
+  },
+  {
+    text: "后端",
+    prefix: "/backend/",
+    children:[
       {
-        text: "香蕉",
-        icon: "pen-to-square",
-        prefix: "banana/",
+        text: "Java",
+        prefix: "Java/",
         children: [
-          {
-            text: "香蕉 1",
-            icon: "pen-to-square",
-            link: "1",
-          },
-          {
-            text: "香蕉 2",
-            icon: "pen-to-square",
-            link: "2",
-          },
-          "3",
-          "4",
-        ],
-      },
-      { text: "樱桃", icon: "pen-to-square", link: "cherry" },
-      { text: "火龙果", icon: "pen-to-square", link: "dragonfruit" },
-      "tomato",
-      "strawberry",
-    ],
+          {text: "java-hello", link: "java-hello"}
+        ]
+      }
+    ]
+  },
+  {
+    text: "数据库",
+    prefix: "/database/",
+    children:[
+      {
+        text: "MySql",
+        prefix: "MySql/",
+        children: [
+          {text: "mysql-hello", link: "mysql-hello"}
+        ]
+      }
+    ]
   },
   {
     text: "V2 文档",

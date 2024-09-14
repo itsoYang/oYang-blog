@@ -15,13 +15,14 @@ export default hopeTheme({
 
   logo: "https://theme-hope-assets.vuejs.press/logo.svg",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  repo: "https://github.com/itsoYang",
 
   docsDir: "src",
 
   // 导航栏
   navbar,
   navbarLayout: {
+    start: ["Brand"],
     center: ['Search'],
     end: ['Links','Repo','Outlook']
   },
